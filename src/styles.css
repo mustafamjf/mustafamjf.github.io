@@ -21,8 +21,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 }
 .site-header.scrolled { background: rgba(13, 15, 14, .86); backdrop-filter: blur(18px); }
 .site-header.hidden { transform: translateY(-100%); }
-.logo { font-size: 23px; font-weight: 700; letter-spacing: -.07em; }
-.logo span { color: var(--acid); }
+.logo { display: block; width: 56px; height: 28px; }
+.logo img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: left center; }
 nav { display: flex; gap: 36px; font-size: 13px; }
 nav a, .contact-meta a { color: var(--muted); transition: color .2s; }
 nav a:hover, .contact-meta a:hover { color: var(--ink); }

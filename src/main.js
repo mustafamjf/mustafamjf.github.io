@@ -74,7 +74,7 @@ const apps = [
 
 document.querySelector('#app').innerHTML = `
   <header class="site-header">
-    <a class="logo" href="#top" aria-label="Mustafa Fayed, home">MF<span>.</span></a>
+    <a class="logo" href="#top" aria-label="Mustafa Fayed, home"><img src="/mf-logo.svg" alt="" /></a>
     <nav aria-label="Primary navigation">
       <a href="#work">Work</a>
       <a href="#about">About</a>
